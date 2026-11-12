@@ -419,6 +419,7 @@ export default function EnchantingDateProposalApp() {
                     className="mt-8 space-y-3 text-lg text-pink-600 font-poppins"
                 >
                     <p className="text-base">We&apos;ll enjoy some delicious <span className="font-semibold">{answers.food.join(", ")}</span>.</p>
+                    <p className="text-base">We'll do something fun....</p>
                     <p className="text-base">Then we&apos;ll watch <span className="font-semibold italic">&quot;{answers.movie}&quot;</span> together.</p>
                     <p className="text-xl font-playfair font-bold mt-6">
                         Your excitement level: <span className="text-rose-600">{answers.excitement}/100</span>
